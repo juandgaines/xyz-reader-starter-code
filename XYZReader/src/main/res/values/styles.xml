@@ -19,11 +19,11 @@
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.NoActionBar">
 
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryDark">@color/primary_dark</item>
-        <item name="colorAccent">@color/accent</item>
-        <item name="controlBackground">@color/primary_light</item>
-        <item name="android:textColor">@color/primary_text</item>
+        <item name="colorPrimary">@color/amber_500</item>
+        <item name="colorPrimaryDark">@color/amber_700</item>
+        <item name="colorAccent">@color/pink_a200</item>
+        <item name="controlBackground">@color/amber_100</item>
+        <item name="android:textColor">@color/grey_900</item>
         <!--<item name="android:background">@color/primary_light</item>-->
 
     </style>
