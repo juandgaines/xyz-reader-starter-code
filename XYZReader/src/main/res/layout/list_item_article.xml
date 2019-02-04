@@ -8,14 +8,14 @@
     android:layout_marginBottom="4dp"
     android:clickable="true"
     android:focusable="true"
-    android:background="@color/primary_light"
+    android:background="?controlBackground"
     android:elevation="4dp"
     android:foreground="?selectableItemBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/primary_light"
+        android:background="?controlBackground"
         android:orientation="vertical">
 
         <!--suppress AndroidLintContentDescription -->
@@ -35,7 +35,7 @@
             android:paddingTop="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="4dp"
-            android:textColor="@color/primary_text"
+            android:textColor="?android:textColor"
             android:ellipsize="end"
             android:maxLines="4" />
 
@@ -47,7 +47,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="16dp"
-            android:textColor="@color/secondary_text"
+            android:textColor="?android:textColorSecondary"
             android:maxLines="2"
             android:ellipsize="end" />
     </LinearLayout>

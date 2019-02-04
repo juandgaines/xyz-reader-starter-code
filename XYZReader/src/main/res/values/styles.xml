@@ -24,6 +24,8 @@
         <item name="colorAccent">@color/pink_a200</item>
         <item name="controlBackground">@color/amber_100</item>
         <item name="android:textColor">@color/grey_900</item>
+
+        <item name="android:textColorSecondary">@color/grey_400</item>
         <!--<item name="android:background">@color/primary_light</item>-->
 
     </style>
