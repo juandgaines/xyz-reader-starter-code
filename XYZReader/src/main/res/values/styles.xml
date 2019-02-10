@@ -18,6 +18,9 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowExitTransition">@transition/grid_exit</item>
+        <item name="android:windowReenterTransition">@android:transition/slide_top</item>
+        <item name="android:windowContentTransitions">true</item>
 
         <item name="colorPrimary">@color/amber_500</item>
         <item name="colorPrimaryDark">@color/amber_700</item>
