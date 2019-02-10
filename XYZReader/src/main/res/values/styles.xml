@@ -17,12 +17,26 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowExitTransition">@transition/grid_exit</item>
+        <item name="android:windowReenterTransition">@android:transition/slide_top</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="colorPrimary">@color/amber_500</item>
+        <item name="colorPrimaryDark">@color/amber_700</item>
+        <item name="colorAccent">@color/pink_a200</item>
+        <item name="controlBackground">@color/amber_100</item>
+        <item name="android:textColor">@color/grey_900</item>
+
+        <item name="android:textColorSecondary">@color/grey_400</item>
+        <!--<item name="android:background">@color/primary_light</item>-->
 
     </style>
 
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
+
     </style>
+
 
 </resources>
